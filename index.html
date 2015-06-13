@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Что чаще всего ест ваш ребенок</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bower_components/fancyselect/fancySelect.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="option-bar">
+		<form action="" id="switcherform">
+			<div class="form-group">
+				<label for="foodselect" class="foodlabel">
+					Что чаще всего ест ваш ребенок
+				</label>
+				<select name="food" id="foodselect">
+					<option value="Макароны">Макароны</option>
+					<option value="Хлеб">Хлеб</option>
+					<option value="Чипсы">Чипсы</option>
+					<option value="Картошка">Картошка</option>
+					<option value="Фастфуд">Фастфуд</option>
+					<option value="Шоколад">Шоколад</option>
+					<option value="Газировка">Газировка</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="ageselect" class="agelabel">
+					Сколько ему лет
+				</label>
+				<select name="age" id="ageselect">
+					<option value="2-3 года">2-3 года</option>
+					<option value="3-7 лет">3-7 лет</option>
+					<option value="7-11 лет">7-11 лет</option>
+				</select>
+			</div>
+		</form>
+		<h2 class="compareh2">СРАВНИТЕ С ДНЕВНОЙ НОРМОЙ ПОТРЕБНОСТИ</h2>
+	</div>
+	<div class="legend-bar">
+		<div class="tip pull-right">
+			<img src="images/child.png"  alt="">
+			<p class="pull-right">Ваш ребенок</p>
+		</div>
+		<div class="tip pull-right">
+			<img src="images/daynorm.png" alt="">
+			<p class="pull-right">Дневная норма 100%</p>
+		</div>
+	</div>
+	<div class="charts-holder" id="charts">
+		
+	</div>
+	<img src="images/values.png" alt="" class="imgvalues">
+	<img src="images/goods.jpg" alt="" class="imggoods">
+</div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/d3/d3.min.js"></script>
+<script src="bower_components/fancyselect/fancySelect.js"></script>
+<script src="js/jquery.script.js"></script>
+</body>
+</html>

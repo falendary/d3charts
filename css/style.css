@@ -1,0 +1,250 @@
+html
+{
+	height: 100%;
+	max-height: 100%;
+}
+body
+{
+	height: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	background-color: #f7f7e5;
+}
+.wrapper
+{
+	width: 960px;
+	margin: 20% auto;
+	height: 674px;
+}
+.foodlabel
+{
+	width: 140px;
+	float: left;
+	display: inline-block;
+	font-family: sans-serif;
+}
+#switcherform:after
+{
+	display: block;
+	content: '';
+	clear: both;
+}
+.form-group
+{
+	float: left;
+}
+.form-group:first-child
+{
+	margin-right: 20px;
+}
+.form-group div.fancy-select ul.options li:hover
+{
+	background: rgba(0,0,0,.2);
+}
+.form-group ul
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+.form-group div.fancy-select
+{
+	float: left;
+	height: 30px;
+	width: 172px;
+}
+div.fancy-select select:focus + div.trigger
+{
+	box-shadow: none;
+}
+.form-group div.fancy-select div.trigger
+{
+	width: 172px;
+	border-radius: 40px;
+	color: #1a1a1a;
+	font-family: sans-serif;
+	background: #f5a100;
+	box-shadow: none;
+	border: 0;
+	outline-color: transparent;
+	box-sizing: border-box;
+}
+.form-group div.fancy-select ul.options
+{
+	border-radius: 18px;
+	background: #f5a100;
+	top: -1px;
+	width: 172px;
+	box-sizing: border-box;
+	color: #1a1a1a;
+	font-size: 10px;
+	min-width: inherit;
+}
+div.fancy-select div.trigger:after
+{
+	position: absolute;
+	display: block;
+	width: 20px;
+	top: 12px;
+	right: 12px;
+	height: 12px;
+	border: 0;
+	background: url(../images/caret-down.png) no-repeat;
+	background-position: center center;
+}
+div.fancy-select div.trigger.open:after
+{
+	z-index: 100;
+	background: url(../images/caret-up.png) no-repeat;
+}
+div.fancy-select ul.options li.selected
+{
+	background: transparent;
+}
+.form-group div.fancy-select ul.options li
+{
+	width: 172px;
+	color: #1a1a1a;
+	box-sizing: border-box;
+}
+div.fancy-select ul.options.open
+{
+	box-shadow: none;
+	border: 0;
+}
+.form-group div.fancy-select ul.options li
+{
+	font-family: sans-serif;
+}
+.form-group div.fancy-select ul.options li:first-child
+{
+	font-size: 13px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-top: 11px;
+	padding-left: 8px;
+}
+.agelabel
+{
+	width: 60px;
+	margin-right: 20px;
+	float: left;
+	display: inline-block;
+	font-family: sans-serif;
+}
+#charts rect{
+  /*fill: #8ed644;*/
+}	
+.pull-right
+{
+	float: right;
+}
+
+.option-bar
+{
+	margin-bottom: 40px;
+	padding-right: 60px;
+	box-sizing: border-box;
+}
+.option-bar #switcherform
+{
+	float: left;
+}
+.option-bar::after
+{
+	display: block;
+	content: "";
+	clear: both;
+}
+.compareh2
+{
+	margin: 0;
+	float: right;
+	font-weight: bold;
+	width: 160px;
+	overflow: hidden;
+	margin-top: -8px;
+	text-shadow: 0 0 1px #1a1a1a;
+	height: 50px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.legend-bar
+{
+	overflow: hidden;
+	padding-right: 60px;
+}
+.imgvalues
+{
+	margin-left: 10px;
+}
+.imggoods
+{
+	margin-left: -15px;
+}
+
+.tip:last-child
+{
+	margin-right: 10px;
+}
+.tip p
+{
+	margin: 0;
+	font-family: sans-serif;
+	margin-left: 10px;
+}
+#charts .bar
+{
+	fill: #f42a0f;
+}
+#charts .x.axis text
+{
+	fill: #1a1a1a;
+	font-size: 16px;
+}
+#charts .barfill
+{
+	stroke: transparent;
+	stroke-width: 2;
+}
+#charts text.percentage
+{
+	fill: #f42a0f;
+	stroke: #f42a0f;
+	stroke-width: 0;
+	font: 14px sans-serif;
+	font-weight: bold;
+}
+#charts text{
+ 
+  font: 10px sans-serif;
+  text-anchor: end; 
+}
+
+#charts .bar-holder{
+	border-radius: 4px 4px 0 0;
+}
+.axis text{
+  font: 10px sans-serif;
+}
+
+.axis path, .axis line{
+  fill: none;
+  stroke : #fff;
+  shape-rendering: crispEdges;
+}
+.axis path.domain
+{
+	fill: #673510;
+	stroke-width: 2;
+	stroke : #673510;
+}
+/*
+ Цвет заливки #8ed644
+ Цвет процентов #f42a0f
+ Цвет границ #673510
+ Цвет фона селектов #f5a100;
+ Цвет текста селектов и обычного текста #1a1a1a
+ margin-right: 32px;
+ hegiht 40px
+ width 172
+*/
